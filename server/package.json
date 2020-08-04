@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start":"ts-node-dev src/server"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "express": "^4.17.1",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.56"
+  }
+}
