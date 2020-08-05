@@ -14,7 +14,7 @@ export default function TeacherList(){
                 <form id="search-teachers">
                     <Input name="subject" label="Matéria" />
                     <Input name="week_day" label="Dia da Semana" />
-                    <Input name="time" label="Hora" />
+                    <Input type="time" name="time" label="Hora" />
                 </form>
            </PageHeader>
 
