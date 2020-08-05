@@ -43,7 +43,7 @@
     cursor: pointer;
     transition: color 0.2s;
 }
-#page-teacher-form main fieldset legend:hover{
+#page-teacher-form main fieldset button:hover{
     color:var(--color-primary-dark);
 }
 #page-teacher-form main fieldset .input-block + .textarea-block{
